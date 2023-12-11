@@ -2,13 +2,12 @@
 
 /**
  * **strtow - splits the  string into the words. Repeat delimiters are ignored
- * @str: the input strings vahhv 
+ * @str: the input strings vahhv
  * @d: the delimeter stringsdf
  gfhfyyhvvvnv
  @fhkhkhknkhjhkui
  * Return: a pointer to an array of strings, or NULL on failure
  */
-
 char **strtow(char *str, char *d)
 {
 	int p, j, k, m, numwords = 0;
@@ -18,7 +17,7 @@ char **strtow(char *str, char *d)
 		return (NULL);
 	if (!d)
 		d = " ";
-	for (p = 0; str[i] != '\0'; p++)
+	for (p = 0; str[p] != '\0'; p++)
 		if (!is_delim(str[p], d) && (is_delim(str[p + 1], d) || !str[p + 1]))
 			numwords++;
 
@@ -29,7 +28,7 @@ char **strtow(char *str, char *d)
 		return (NULL);
 	for (p = 0, j = 0; j < numwords; j++)
 	{
-		while (is_delim(str[i], d))
+		while (is_delim(str[j], d))
 			p++;
 		k = 0;
 		while (!is_delim(str[p + k], d) && str[p + k])
@@ -76,7 +75,7 @@ char **strtow2(char *str, char d)
 	for (p = 0, j = 0; j < numwords; j++)
 	{
 		while (str[p] == d && str[p] != d)
-			i++;
+			j++;
 		k = 0;
 		while (str[p + k] != d && str[p + k] && str[p + k] != d)
 			k++;

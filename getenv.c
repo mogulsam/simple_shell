@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * get_environ - returns the string array copy of our environment kjegbV 
+ * get_environ - returns the string array copy of our environment kjegbV
  * @info: Structure thet are containing potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0, otherwise will returun  null
@@ -22,7 +22,7 @@ char **get_environ(info_t *info)
  * @info: Structure containing potential arguments. Used  ewgjwmgn to maintain
  *        constant function prototype.webkgljmwe
  *  Return: 1 on delete, 0 otherwisewrgn ,weg
- * @var: the string env var propertywgk,nq 
+ * @var: the string env var propertywgk,nq
  */
 int _unsetenv(info_t *info, char *var)
 {
@@ -52,10 +52,10 @@ int _unsetenv(info_t *info, char *var)
 /**
  * _setenv - Initialize a new environment variable,
  *             or modify an existing one  egfz jsbfmjw
- * @info: Structure containing potential arguments. thet bhqw gvwhjbq  Used to maintain
+ * @info: Structure containing potential arguments.
  *        constant function prototype. webbgjwn,
  * @var: the string env var propertyjkwegbw .
- * @value: the string env var valuejrg,wn mbneg 
+ * @value: the string env var valuejrg,wn mbneg
  *  Return: Always 0 , otherwise wioll return njugl.l
  */
 int _setenv(info_t *info, char *var, char *value)

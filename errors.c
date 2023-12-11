@@ -21,7 +21,7 @@ void _eputs(char *str)
 
 /**
  * _eputchar - writes the character c to stderr
- * @c: The character to print vfhqmfv 
+ * @c: The character to print vfhqmfv
  *
  * Return: On success 1. wehwg
  * On error, -1 is returned, hewhw and errno is set appropriately.

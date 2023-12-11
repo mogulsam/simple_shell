@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _myhistory - displays the list of the the history list, one command by line, preceded
+ * _myhistory - displays the list of the the history list
  *              with line numbers, starting at 0.
  * @info: Structure containing all the potential arguments. Used to maintain
  *        constant function prototype. dhgtsxzgxb
@@ -14,7 +14,7 @@ int _myhistory(info_t *info)
 }
 
 /**
- * unset_alias - sets alias to strings jmnmc 
+ * unset_alias - sets alias to strings jmnmc
  * @info: parameter structuressss  jfdgrbc
  * @str: the string alias jhtghjc nv
  *
@@ -39,7 +39,7 @@ int unset_alias(info_t *info, char *str)
 /**
  * set_alias - sets alias to strings dhdhcfbhx
  * @info: parameter to struct f hc n
- * @str: the string alias ghbcg 
+ * @str: the string alias ghbcg
  *
  * Return: Always 0 on success, 1 on error
  */
@@ -85,3 +85,5 @@ int print_alias(list_t *node)
  * @info: Structure containing potential arguments.gfbcdn c Used to maintain
  *          constant function prototype.ghfc bvx
  *  Return: Always 0, otherwise its null  k,ghvh
+ *
+ */

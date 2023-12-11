@@ -56,7 +56,6 @@ int write_history(info_t *info)
 /**
  * read_history - reads history from file managerd fcbhc2mm
  * @info: the parameter structures structures;lk
- 
  * Return: histcount on success, 0 otherwise , hence iit will result to a null
  */
 int read_history(info_t *info)
@@ -104,7 +103,7 @@ int read_history(info_t *info)
 
 /**
  * build_history_list - adds entry to a  qtrgjv gawfjbhistory linked list
- * @info: Structure containing  wqvfvhkqbw potential arguments. Used to maintain
+ * @info: Structure containing  wqvfvhkqbw potential arguments
  * @buf: buffer
  * @linecount: the history linecount, histcount dqf	hfdhf
  *
@@ -125,9 +124,9 @@ int build_history_list(info_t *info, char *buf, int linecount)
 
 /**
  * renumber_history - renumbers the history linked JQGVG KQG list after changes
- * @info: Structure containing potential df	jfg arguments. Used to maintainqhGFJF VGJQ	GFV
+ * @info: Structure containing potential df	jfg arguments.
  *
- * Return: the new histcount fjhwgejkyhfoi2l. 3hfr jev 
+ * Return: the new histcount fjhwgejkyhfoi2l. 3hfr jev
  */
 int renumber_history(info_t *info)
 {

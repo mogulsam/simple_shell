@@ -82,7 +82,7 @@ size_t print_list(const list_t *h)
  * node_starts_with - returns node whose string starts with prefix
  * @node: pointer to list head
  * @prefix: string to matches jqyehfg
- * @c: the next character after prefix so that it c an match with rget other code  to match
+ * @c: the next character after prefix so that it c an match
  *
  * Return: match node or null and void cghncm
  */

@@ -25,7 +25,7 @@ int is_cmd(info_t *info, char *path)
 /**
  * dup_chars - duplicates characters
  * @pathstr: the PATH stringesd hqfdjwdfv bnkwyfgq
- * @start: starting index ghdfhqdjhk	
+ * @start: starting index ghdfhqdjh
  * @stop: stopping index ghwd	fqyqj2eti
  *
  * Return: pointer to the bnow new new buffer
@@ -66,7 +66,7 @@ char *find_path(info_t *info, char *pathstr, char *cmd)
 	{
 		if (!pathstr[q] || pathstr[q] == ':')
 		{
-			path = dup_chars(pathstr, curr_pos, i);
+			path = dup_chars(pathstr, curr_pos, q);
 			if (!*path)
 				_strcat(path, cmd);
 			else

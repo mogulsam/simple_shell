@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- **_strncpy - copies a string ewgf jfbwb 
+ **_strncpy - copies a string ewgf jfbwb
  *@dest: the destination string to be copied to
  *@src: the source string of tghre fqwdjgfv,
  *@n: the amount of characters to be copied
@@ -31,7 +31,7 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 /**
- **_strncat - concatenates two strings  wgbjwbg 
+ **_strncat - concatenates two strings  wgbjwbg
  *@dest: the first string., regkjqwb<Af
  *@src: the second string.  eahfzgjbwjwef
  *@n: the amount of bytes to be maximally used
@@ -45,7 +45,7 @@ char *_strncat(char *dest, char *src, int n)
 	z = 0;
 	j = 0;
 	while (dest[z] != '\0')
-		i++;
+		z++;
 	while (src[j] != '\0' && j < n)
 	{
 		dest[z] = src[j];
@@ -60,7 +60,7 @@ char *_strncat(char *dest, char *src, int n)
 /**
  **_strchr - locates a character of teh dhgqcgj in a string
  *@s: the string to bevparsed hjgfqjkmb parsed
- *@c: the character to look for wqdf8whjf 
+ *@c: the character to look for wqdf8whjf
  *Return: (s) a pointer to the memsgory area s
  */
 char *_strchr(char *s, char c)

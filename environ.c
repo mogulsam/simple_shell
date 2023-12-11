@@ -4,7 +4,7 @@
  * _myenv - prints the current of the nvironments
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
- * Return: Always 0, othetwis4 its null 
+ * Return: Always 0, othetwis4 its null
  */
 int _myenv(info_t *info)
 {
@@ -54,7 +54,7 @@ int _mysetenv(info_t *info)
 }
 
 /**
- * _myunsetenv - Remove an environment variableenvvironmental variables 
+ * _myunsetenv - Remove an environment variableenvvironmental variables
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
@@ -76,9 +76,9 @@ int _myunsetenv(info_t *info)
 
 /**
  * populate_env_list - populates env linked list
- * @info: Structure containing potential arguments. Used to maintain vbdcn ghc b
+ * @info: Structure containing potential arguments. 
  *          constant function prototype.fopr all whiose the x values are true
- * Return: Always 0, otherwise its a NULL 
+ * Return: Always 0, otherwise its a NULL
  */
 int populate_env_list(info_t *info)
 {

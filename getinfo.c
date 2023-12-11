@@ -2,7 +2,7 @@
 
 /**
  * clear_info - initializes in thhe ggdsgkjb info_t struct
- * @info: struct address mwbjmfmwb 
+ * @info: struct address mwbjmfmwb
  */
 void clear_info(info_t *info)
 {
@@ -46,7 +46,7 @@ void set_info(info_t *info, char **av)
 
 /**
  * free_info - frees info_t struct fields
- * @info: struct thfjh,  address fw qwv hnv 
+ * @info: struct thfjh,  address fw qwv hnv
  * @all: true if freeing all fields gwefjzwmn gb
  */
 void free_info(info_t *info, int all)

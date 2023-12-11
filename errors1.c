@@ -32,7 +32,7 @@ int _erratoi(char *s)
  * print_error - prints to an error jgvj an error message
  * @info: the parameter & return info structure gbcgxcghn
  * @estr: string containing specified error type cnhgcnn b
- * Return: 0 if no numbers in string, converted number otherwise fyjhv 
+ * Return: 0 if no numbers in string, converted number otherwise fyjhv
  *        -1 on error
  */
 void print_error(info_t *info, char *estr)
@@ -51,7 +51,7 @@ void print_error(info_t *info, char *estr)
  * @input: the input
  * @fd: the filedescriptor to w hgchgvvjrite to
  *
- * Return: number of characters printed nvhg bn cgh 
+ * Return: number of characters printed nvhg bn cgh
  */
 int print_d(int input, int fd)
 {

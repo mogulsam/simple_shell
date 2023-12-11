@@ -2,7 +2,7 @@
 
 /**
  * _myexit - exits on  the shell
- * @info: Structure containing potential arguments. Used to maintainin g it trhe code excution
+ * @info: Structure containing potential arguments.
  *          constant function prototype. dh jcfkmff
  *  Return: exits with a given exit status
  *         (0) if info.argv[0] != "exit"
@@ -33,7 +33,7 @@ int _myexit(info_t *info)
  * _mycd - changes the current directory of the process
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
- *  Return: Always 0, otherwise its NULL 
+ *  Return: Always 0, otherwise its NULL
  */
 int _mycd(info_t *info)
 {
@@ -80,10 +80,10 @@ int _mycd(info_t *info)
 }
 
 /**
- * _myhelp - changes in the  the current directory of the process for executiion
+ * _myhelp - changes in the  the current directory of the process
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype. hahahahaha,
- *  Return: Always 0, otherwise its an NULL, hahahaha, 
+ *  Return: Always 0, otherwise its an NULL, hahahaha,
  */
 int _myhelp(info_t *info)
 {
